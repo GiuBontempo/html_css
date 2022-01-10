@@ -94,13 +94,12 @@ body{
     text-decoration: none;
 }
 #barra_vermelha{
+    min-width:72px;
     height:4px;
-    width:72px;
     background-color:rgb(255, 82, 70);
-    position:relative;
-    top:80%;
-    left:-39.9%;
-    transform:translateX(-100%) translateY(-50%);
+    top:0%;
+    left:0%;
+    transform:translateX(-260px) translateY(20px);
 }
 #divisao_opiniao_pame{
     height:95%;
@@ -287,25 +286,31 @@ body{
 #botao_ocultar{
     background-color:rgb(163, 163, 163);
     height:20px;
-    border-radius:10px
+    border-radius:10px;
+    border:none;
+    width:60px;
 }
 #ocultar{
     position:relative;
     top:0%;
     left:0%;
-    transform:translateX(0%) translateY(-10px);
+    transform:translateX(0%) translateY(-8px);
     font-size:10px;
+    color:white;
 }
 .texto_de_baixo{
     top:0%;
     left:0%;
     transform:translateX(-9px) translateY(0%);
     font-size:10px;
+    color:gray;
 }
 #espaco{
     height:15px;
     width:50px;
     background-color: rgb(233, 233, 233);
+    border:solid 1px;
+    border-color: gray;
 }
 #verificado{
     position:relative;
@@ -324,4 +329,7 @@ body{
     top:0%;
     left:0%;
     transform:translateX(663px) translateY(250px);
+}
+.acoes{
+    filter: invert(73%) sepia(0%) saturate(2531%) hue-rotate(154deg) brightness(105%) contrast(85%);
 }
